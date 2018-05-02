@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form th:action="@{/savephrase}" method="post">
+
+    <ul>
+        <li>
+            <p>
+                <label for="original">Input a phrase to check:</label>
+                <input type="text" name="original" placeholder="phrase">
+            </p>
+        </li>
+    </ul>
+
+
+</form>
+
+</body>
+</html>
